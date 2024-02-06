@@ -29,7 +29,11 @@
       "@shared/*": [
         "src/shared/*"
       ],
-    }
+    },
+    "types": [
+      "vitest/globals",
+      "vite/client"
+    ],
   },
   "include": [
     "src"
