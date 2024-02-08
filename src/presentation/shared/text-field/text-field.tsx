@@ -1,7 +1,7 @@
 import React, { ChangeEvent, forwardRef, useCallback, useState } from "react";
 import type TextField from "./text-field-types";
-import cltw from "../../utils/cltw";
-import TextFieldMask from "../../utils/text-field-mask";
+import cltw from "@utils/cltw";
+import TextFieldMask from "@utils/text-field-mask";
 
 const Root: React.FC<TextField.IRootProps> = (
   { children, ...props }
