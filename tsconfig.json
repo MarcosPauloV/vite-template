@@ -21,13 +21,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
+    "baseUrl": "./src/",
     "paths": {
       "@utils/*": [
-        "src/utils/*"
+        "presentation/utils/*"
       ],
       "@shared/*": [
-        "src/shared/*"
+        "presentation/shared/*"
       ],
     },
     "types": [
@@ -36,7 +36,8 @@
     ],
   },
   "include": [
-    "src"
+    "src/presentation",
+    "src/vite-env.d.ts"
   ],
   "references": [
     {
